@@ -1,0 +1,21 @@
+
+{
+  "name": "express-mvc-nodemailer",
+  "version": "1.0.0",
+  "description": "MVC application with Express, Node.js, Bootstrap and Nodemailer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
